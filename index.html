@@ -30,7 +30,8 @@
     <div id="shadeDiv"></div>
     <div class="container-fluid">
         <nav>
-            <ul class="nav justify-content-end">
+            <ul class="nav fixed-top justify-content-end">
+
                 <li class="nav-item">
                     <a class="nav-link active" href="#aboutMeSec">About</a>
                 </li>
@@ -44,7 +45,7 @@
             </ul>
         </nav>
 
-        <div class='row'>
+        <div class='row' id='heroRowDiv'>
             <div class='col-12 col-sm-12 heroClass'>
                 <div id="heroDiv">
                     <h1>Hetal Patel</h1>
@@ -53,36 +54,47 @@
             </div>
         </div>
 
-        <div class='row animated fadeInDown delay-2s' >
-            <div class='col-12 col-sm-12' id='aboutDiv'>
-                <div  >
+        <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/img1.jpg"></div>
+
+        <div class='row wow fadeUp' data-wow-duration="2s" data-wow-delay=".2s" id='aboutDiv'>
+            <div class='col-12 col-sm-12 aboutDivClass'>
+                <div>
                     <header>
                         <h1>
                             About
                         </h1>
                     </header>
                     <section id="aboutMeSec">
-                        <p>
-                            My Name is Hetal. I am a Freelancer Front End Developer.
-
-                            Coding is my passion. I use different web-technologies to make websites such as HTML,Css,
+                        <img class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".2s" id="myImg" src="assets/images/Hetal.jpg" alt="Hetal Patel">
+                        <p>My Name is Hetal. I am a Freelancer Front End Developer.</p>
+                        <p> Coding is my passion. I use different web-technologies to make websites such as HTML,Css,
                             JavaScript,JQuery and many more...
-
-                            Besides coding I love to do painting, use different softwares to edit photographs.
-
                             I started my journey as a Junior Front End Developer and now
                             working as a Freelancer. I am quietly confident, naturally curious, and perpetually
                             improving my
-                            chops.
-                        </p>
+                            chops.</p>
+                        <p> Besides coding I love to do painting, use different softwares to edit photographs.</p>
                     </section>
                 </div>
 
             </div>
         </div>
+        
+        <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/images/img2.PNG"></div>
 
+        <div class="row">
+            <div class="col-12 col-sm-12" >
+                
+            </div>
+        </div>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/WOW/wow.min.js"></script>
+    <script src="assets/js/WOW/style.js"></script>
 </body>
 
 </html>
