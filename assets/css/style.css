@@ -211,3 +211,35 @@ nav a {
     border: 2px solid #000;
     border-radius: 5px;
 }
+
+/* ----------------------Footer Styling -------------------------- */
+#footerDiv{
+    width: 100%;
+    font-size: 2em;
+    color:#fff;
+    margin-top: 10%;
+}
+#footerDiv:hover{
+    cursor: pointer;
+}
+#footerDiv i:hover{
+    color: rgb(67, 155, 243);
+}
+#footerDiv a{
+    color:#fff;
+}
+#footerDiv span{
+    font-size: 0.6em;
+}
+
+#footerDiv .col-12,#footerDiv .col-sm-12{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background: rgba(23, 45, 34, 0.8);
+
+}
