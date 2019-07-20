@@ -19,12 +19,15 @@ body {
     padding-right: 0;
     padding-left: 0;
 }
-.row{
+
+.row {
     margin-right: 0;
     margin-left: 0;
 }
+
 a {
     color: #000;
+    text-decoration: none;
 }
 
 a:hover {
@@ -48,11 +51,12 @@ h2 {
 
 /* nav styling */
 nav {
-   
+
     height: 50px;
-    
+
 }
-.fixed-top{
+
+.fixed-top {
     background: rgba(23, 45, 34, 0.8);
     border: 1px solid #000;
     padding: 10px 0;
@@ -64,22 +68,24 @@ nav a {
 
 /*-------------------- HeroDiv Styling--------------- */
 
-#heroRowDiv{
+#heroRowDiv {
     width: 100%;
     height: 500px;
     /* background: rgba(56,89,56,0.8); */
 }
-.heroClass{
+
+.heroClass {
     width: 100%;
     height: 20em;
     margin-top: 13%;
     margin-bottom: 13%;
     position: relative;
-    background:rgba(166, 166, 253, 0.7);
+    background: rgba(166, 166, 253, 0.7);
     /* text-align: center; */
 
 }
-#heroDiv{
+
+#heroDiv {
     margin: 0;
     /* background: yellow; */
     position: absolute;
@@ -88,7 +94,8 @@ nav a {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-#heroDiv:hover{
+
+#heroDiv:hover {
     color: #020279;
     cursor: pointer;
 }
@@ -100,58 +107,107 @@ nav a {
     width: 100%;
     background: transparent;
     background-size: cover;
-    margin:auto auto;
+    margin: auto auto;
 
 }
+
 /* ----------------About Div styling---------------- */
 
-#aboutDiv{
+#aboutDiv {
     width: 100%;
     height: 650px;
-   
-   
-    color:#000;
+
+
+    color: #000;
     text-align: center;
 }
-.aboutDivClass{
+
+.aboutDivClass {
     height: 650px;
-    background:rgba(166, 166, 253, 0.7); 
+    background: rgba(166, 166, 253, 0.7);
 }
-#aboutDiv header{
+
+#aboutDiv header {
     height: 150px;
-    padding:2% 0;
+    padding: 2% 0;
 }
-#aboutDiv p{
+
+#aboutDiv p {
     font-size: 1.5em;
 }
-#aboutMeSec{
-    width:80%;
-    margin:auto auto;
+
+#aboutMeSec {
+    width: 80%;
+    margin: auto auto;
 }
-#aboutMeSec p:nth-child(3){
+
+#aboutMeSec p:nth-child(3) {
     text-align: left;
 }
-#myImg{
+
+#myImg {
     width: 200px;
     height: 200px;
     border: 1px solid #000;
     border-radius: 5px;
-    padding:5px;
+    padding: 5px;
     background: #000;
-    margin:10px 0;
+    margin: 10px 0;
 }
+
 /* -------------Portfolio Styling-------------- */
-#portfolioDiv{
+#portfolioDiv {
     width: 100%;
-    height: 500px;
-    background:rgba(166, 166, 253, 0.7); 
-}
-.card{
+    height: 530px;
     text-align: center;
-    background: transparent;
+    background: rgba(166, 166, 253, 0.7);
 }
-.card img{
-    width:200px;
+
+.card {
+    margin: auto auto;
+    background: transparent;
+    border: none;
+    /* border: 1px solid seagreen; */
+}
+
+.card img {
+    width: 200px;
     height: 300px;
-    margin:auto auto;
+    margin: auto auto;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.card img:hover {
+    border: 1px solid #fff;
+}
+
+.card a:hover {
+    text-decoration: none;
+    color: rgb(153, 152, 153);
+}
+
+.card:hover {
+    background: rgb(66, 55, 55);
+}
+
+/* --------------------------Contact Styling--------------------- */
+
+#contact {
+   
+    /* background: #ccc; */
+    height: 500px;
+    margin-bottom: 100px;
+    background: rgba(166, 166, 253, 0.7);
+}
+
+
+#contact form {
+    width: 50%;
+    height: 350px;
+    margin: auto auto;
+    padding:10px;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
