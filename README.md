@@ -10,7 +10,14 @@
 * Media Queries
 
 ## Screen Shots
-* https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive1.PNG
-* https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive2.PNG
+* ![alt text](https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive1.PNG "Responsive Layout 1")
+* ![alt text](https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive2.PNG "Responsive Layout 2")
+
+
+## License
+Designed and developed by Hetal Patel
+
+MIT © [Hetal Patel]()
+
 
 
