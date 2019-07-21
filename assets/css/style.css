@@ -53,13 +53,15 @@ h2 {
 nav {
 
     height: 50px;
-
+    /* background: rgba(23, 45, 34, 0.8);
+    border: 1px solid #000; */
 }
 
 .fixed-top {
+   
     background: rgba(23, 45, 34, 0.8);
     border: 1px solid #000;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 nav a {
@@ -222,7 +224,7 @@ img.parallax-slider{
 #contact {
    
     /* background: #ccc; */
-    height: 500px;
+    height: 550px;
     padding-top: 10px;
     margin-bottom: 100px;
     background: rgba(166, 166, 253, 0.7);
@@ -230,7 +232,7 @@ img.parallax-slider{
 
 #contact header {
     height: 100px;
-    padding: 1% 0;
+    padding: 4% 0;
 }
 
 
