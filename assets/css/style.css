@@ -11,7 +11,15 @@ body {
 }
 
 body {
-    background: #ccc url("../images/background.jpg") no-repeat center fixed;
+
+    height: 100%;
+    font-size: 1em;
+    background: #ccc url("../images/background.jpg");
+    /* background-image: linear-gradient(to right, #379c59, #377a9c); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -58,7 +66,7 @@ nav {
 }
 
 .fixed-top {
-   
+
     background: rgba(23, 45, 34, 0.8);
     border: 1px solid #000;
     padding: 5px 0;
@@ -75,7 +83,8 @@ nav a {
     height: 500px;
     /* background: rgba(56,89,56,0.8); */
 }
-#heroRowDiv h1{
+
+#heroRowDiv h1 {
     font-size: 5em;
 }
 
@@ -114,10 +123,11 @@ nav a {
     /* background: transparent; */
     background-size: contain;
     background-position: center;
-   
+
 
 }
-img.parallax-slider{
+
+img.parallax-slider {
     height: 500px;
 }
 
@@ -182,7 +192,7 @@ img.parallax-slider{
     padding: 1% 0;
 }
 
-#projectDisplay{
+#projectDisplay {
     margin-top: 10px;
 }
 
@@ -205,8 +215,9 @@ img.parallax-slider{
 .card img:hover {
     border: 1px solid #fff;
 }
-.card a{
-    color:rgb(8, 24, 235);
+
+.card a {
+    color: rgb(8, 24, 235);
 }
 
 .card a:hover {
@@ -215,14 +226,26 @@ img.parallax-slider{
 }
 
 .card:hover {
-    background: rgb(66, 55, 55);
-    color:#fff;
+    /* background: rgb(66, 55, 55); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+0,ffffff+100 */
+    background: #f0b7a1;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f0b7a1 0%, #8c3310 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0b7a1 0%, #8c3310 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0b7a1 0%, #8c3310 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0b7a1', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+
+    color: #fff;
 }
 
 /* --------------------------Contact Styling--------------------- */
 
 #contact {
-   
+
     /* background: #ccc; */
     height: 550px;
     padding-top: 10px;
@@ -240,43 +263,112 @@ img.parallax-slider{
     width: 50%;
     height: 350px;
     margin: auto auto;
-    padding:10px;
+    padding: 10px;
     border: 2px solid #000;
     border-radius: 5px;
 }
 
 /* ----------------------Footer Styling -------------------------- */
-#footerDiv{
+#footerDiv {
     width: 100%;
-    
-    color:#fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    color: #fff;
     margin-top: 10%;
 }
-#footerDiv:hover{
+
+#footerDiv:hover {
     cursor: pointer;
 }
 
-footer{
+footer {
     height: 50px;
     width: 100%;
-    padding:10px 0;
+    padding: 10px 0;
     background: rgba(23, 45, 34, 0.8);
 
 }
-#footerDiv a i{
+
+#footerDiv a i {
     font-size: 1.5em;
-    margin:0 10px;
-    color:#fff;
+    margin: 0 10px;
+    color: #fff;
 }
-#footerDiv i:hover{
+
+#footerDiv i:hover {
     color: rgb(67, 155, 243);
 }
-#footerDiv span{
+
+#footerDiv span {
     font-size: 1em;
     /* font-size: 2em; */
 }
 
-#footerDiv .col-12,#footerDiv .col-sm-12{
+#footerDiv .col-12,
+#footerDiv .col-sm-12 {
     padding-right: 0;
     padding-left: 0;
+}
+
+@media screen and (max-width:1024px) and (min-width:600px) {
+    .container-fluid {
+        width: 90%;
+    }
+
+    /* nav .justify-content-end{
+        margin-right: 30px;
+    } */
+    .heroClass {
+        height: 24rem;
+        ;
+    }
+
+    .card img {
+        width: 150px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .card-body {
+        padding: 10px 126px 10px 5px;
+    }
+}
+
+@media screen and (max-width:599px)  {
+    #heroRowDiv h1{
+        font-size: 2em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    .nav-link {
+        padding: .5rem 10px;
+    }
+    nav a{
+        font-size: 0.8em;
+    }
+    #aboutDiv p{
+        font-size: 1em;
+    }
+    #aboutDiv header{
+        padding:3% 0 1% 0;
+    }
+    #portfolioDiv{
+        height: 1275px;
+    }
+    #portfolioDiv header{
+        padding:3% 0 1% 0;
+    }
+    .card img {
+        height: 100px;
+        width: 100px;
+    }
+    #contact form{
+        width: 80%;
+    }
 }
