@@ -357,6 +357,7 @@ footer {
     }
     #aboutDiv header{
         padding:3% 0 1% 0;
+        height: 75px;
     }
     #portfolioDiv{
         height: 1275px;
