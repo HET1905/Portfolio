@@ -10,4 +10,7 @@
 * Media Queries
 
 ## Screen Shots
+* https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive1.PNG
+* https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive2.PNG
+
 
