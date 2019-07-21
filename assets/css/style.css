@@ -41,7 +41,7 @@ h2 {
 }
 
 h1 {
-    font-size: 5.2em;
+    font-size: 2.5em;
     font-weight: bolder;
 }
 
@@ -73,10 +73,13 @@ nav a {
     height: 500px;
     /* background: rgba(56,89,56,0.8); */
 }
+#heroRowDiv h1{
+    font-size: 5em;
+}
 
 .heroClass {
     width: 100%;
-    height: 20em;
+    height: 22em;
     margin-top: 13%;
     margin-bottom: 13%;
     position: relative;
@@ -105,17 +108,22 @@ nav a {
     text-align: center;
     min-height: 400px;
     width: 100%;
-    background: transparent;
-    background-size: cover;
     margin: auto auto;
+    /* background: transparent; */
+    background-size: contain;
+    background-position: center;
+   
 
+}
+img.parallax-slider{
+    height: 500px;
 }
 
 /* ----------------About Div styling---------------- */
 
 #aboutDiv {
     width: 100%;
-    height: 650px;
+    height: 700px;
 
 
     color: #000;
@@ -123,13 +131,16 @@ nav a {
 }
 
 .aboutDivClass {
-    height: 650px;
+    min-height: 650px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
     background: rgba(166, 166, 253, 0.7);
 }
 
 #aboutDiv header {
-    height: 150px;
-    padding: 2% 0;
+    height: 100px;
+    padding: 1% 0;
 }
 
 #aboutDiv p {
@@ -158,9 +169,19 @@ nav a {
 /* -------------Portfolio Styling-------------- */
 #portfolioDiv {
     width: 100%;
-    height: 530px;
+    height: 630px;
+    padding-top: 60px;
     text-align: center;
     background: rgba(166, 166, 253, 0.7);
+}
+
+#portfolioDiv header {
+    height: 100px;
+    padding: 1% 0;
+}
+
+#projectDisplay{
+    margin-top: 10px;
 }
 
 .card {
@@ -202,8 +223,14 @@ nav a {
    
     /* background: #ccc; */
     height: 500px;
+    padding-top: 10px;
     margin-bottom: 100px;
     background: rgba(166, 166, 253, 0.7);
+}
+
+#contact header {
+    height: 100px;
+    padding: 1% 0;
 }
 
 
