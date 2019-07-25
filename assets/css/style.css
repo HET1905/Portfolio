@@ -181,7 +181,7 @@ img.parallax-slider {
 /* -------------Portfolio Styling-------------- */
 #portfolioDiv {
     width: 100%;
-    height: 630px;
+    height: 1230px;
     padding-top: 60px;
     text-align: center;
     background: rgba(166, 166, 253, 0.7);
@@ -194,6 +194,14 @@ img.parallax-slider {
 
 #projectDisplay {
     margin-top: 10px;
+}
+#secondRowPortfolio img{
+    width: 700px;
+    height: 350px;
+}
+#secondRowPortfolio .card{
+    width: 850px;
+    
 }
 
 .card {
@@ -324,6 +332,18 @@ footer {
         height: 24rem;
         ;
     }
+    #portfolioDiv{
+        height: 940px;
+    }
+    #secondRowPortfolio img{
+        width: 500px;
+        height: 250px;
+    }
+    #secondRowPortfolio .card{
+        width: 550px;
+        
+    }
+    
 
     .card img {
         width: 150px;
@@ -360,10 +380,19 @@ footer {
         height: 75px;
     }
     #portfolioDiv{
-        height: 1275px;
+        height: 1700px;
     }
     #portfolioDiv header{
         padding:3% 0 1% 0;
+    }
+    
+    #secondRowPortfolio img{
+        width: 300px;
+        height: 250px;
+    }
+    #secondRowPortfolio .card{
+        width: 350px;
+        
     }
     .card img {
         height: 100px;
