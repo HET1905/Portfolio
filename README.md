@@ -1,4 +1,4 @@
-# Portfolio-updated
+# Portfolio
 ### Link for the portfolio:
  https://het1905.github.io/Portfolio-updated/
 
