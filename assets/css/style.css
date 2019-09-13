@@ -343,14 +343,14 @@ footer {
         ;
     }
     #portfolioDiv{
-        height: 940px;
+        height: 1230px;
     }
     #secondRowPortfolio img{
-        width: 500px;
-        height: 250px;
+        width: 80%;
+        height: 200px;
     }
     #secondRowPortfolio .card{
-        width: 550px;
+        width: 80%;
         
     }
     
@@ -361,8 +361,12 @@ footer {
         margin: 0;
     }
 
+
     .card-body {
         padding: 10px 126px 10px 5px;
+    }
+    #secondRowPortfolio .card-body{
+        padding: 0;
     }
 }
 
@@ -390,14 +394,14 @@ footer {
         height: 75px;
     }
     #portfolioDiv{
-        height: 1700px;
+        height: 3440px;
     }
     #portfolioDiv header{
         padding:3% 0 1% 0;
     }
     
     #secondRowPortfolio img{
-        width: 300px;
+        width: 250px;
         height: 250px;
     }
     #secondRowPortfolio .card{
@@ -405,10 +409,25 @@ footer {
         
     }
     .card img {
-        height: 100px;
-        width: 100px;
+        height: 170px;
+        width: 170px;
     }
     #contact form{
         width: 80%;
     }
+}
+
+@media screen and (max-width:400px)  {
+    #secondRowPortfolio img{
+        width: 200px;
+        height: 200px;
+    }
+    .card img {
+        height: 150px;
+        width: 150px;
+    }
+    #portfolioDiv{
+        height: 3240px;
+    }
+
 }
