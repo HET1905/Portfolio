@@ -74,6 +74,7 @@ nav {
 
 nav a {
     color: #fff;
+    font-size: 1.2em;
 }
 
 /*-------------------- HeroDiv Styling--------------- */
@@ -86,6 +87,9 @@ nav a {
 
 #heroRowDiv h1 {
     font-size: 5em;
+}
+#heroRowDiv h2 {
+    font-size: 2.2em;
 }
 
 .heroClass {
