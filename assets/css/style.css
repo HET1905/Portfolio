@@ -103,9 +103,11 @@ nav a {
     margin: 0;
     /* background: yellow; */
     position: absolute;
-    top: 50%;
+    /* top: 50%; */
+    top: 32%;
     left: 50%;
     margin-right: -50%;
+    text-align: center;
     transform: translate(-50%, -50%)
 }
 
