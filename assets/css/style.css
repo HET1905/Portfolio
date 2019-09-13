@@ -386,6 +386,9 @@ footer {
     nav a{
         font-size: 0.8em;
     }
+    .aboutDivClass{
+        height: 850px;
+    }
     #aboutDiv p{
         font-size: 1em;
     }
