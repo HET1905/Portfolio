@@ -20,7 +20,7 @@ https://hetal-portfolio.herokuapp.com
 ## License
 Designed and developed by Hetal Patel
 
-MIT © [Hetal Patel]()
+MIT © [Hetal Patel](https://github.com/HET1905)
 
 
 
