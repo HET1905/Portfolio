@@ -13,8 +13,8 @@ https://hetal-portfolio.herokuapp.com
 * Media Queries
 
 ## Screen Shots
-* ![alt text](https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive1.PNG "Responsive Layout 1")
-* ![alt text](https://github.com/HET1905/Portfolio-updated/blob/master/assets/images/responsive2.PNG "Responsive Layout 2")
+* ![responsive desing](https://github.com/HET1905/Portfolio/blob/master/public/assets/images/responsive1.PNG "Responsive Layout 1")
+* ![repsonsive 2](https://github.com/HET1905/Portfolio/blob/master/public/assets/images/responsive2.PNG "Responsive Layout 2")
 
 
 ## License
