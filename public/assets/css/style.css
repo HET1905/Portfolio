@@ -265,7 +265,7 @@ img.parallax-slider {
 #contact {
 
     /* background: #ccc; */
-    height: 550px;
+    height: 600px;
     padding-top: 10px;
     margin-bottom: 100px;
     background: rgba(166, 166, 253, 0.7);
@@ -284,6 +284,11 @@ img.parallax-slider {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 5px;
+}
+.thankYouH2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* ----------------------Footer Styling -------------------------- */

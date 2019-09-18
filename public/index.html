@@ -276,15 +276,16 @@
                     </header>
                 </div>
             </div>
-            <div class='row'>
-                <div class="col-12 col-sm-12">
-                    <form class="wow zoomIn" data-wow-duration="2s" data-wow-delay=".2s">
+            <div class='row'  >
+                <div class="col-12 col-sm-12 formCol" >
+                    <form class="wow zoomIn" id="contactForm"  data-wow-duration="2s" data-wow-delay=".2s">
                         <div class="form-group">
                             <label for="Name">Name</label>
-                            <input class="form-control" type="text" placeholder="Enter Name">
+                            <input class="form-control" type="text" id="txtName" placeholder="Enter Name" required>
+                        
                             <div class="form-group">
                                 <label for="Email">Email address</label>
-                                <input type="email" class="form-control" id="txtEmail" placeholder="name@abc.com">
+                                <input type="email" class="form-control" id="txtEmail" placeholder="name@abc.com" required>
                             </div>
 
 
@@ -292,7 +293,8 @@
                                 <label for="message">Message</label>
                                 <textarea class="form-control" id="txtMessage" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary mb-2 float-right">Submit</button>
+                            <button id="btnSubmit" class="btn btn-primary mb-2 float-right">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -319,6 +321,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/parallax.min.js"></script>
     <script src="assets/js/WOW/wow.min.js"></script>
     <script src="assets/js/WOW/style.js"></script>
