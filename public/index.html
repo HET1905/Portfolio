@@ -280,12 +280,12 @@
                 <div class="col-12 col-sm-12 formCol" >
                     <form class="wow zoomIn" id="contactForm"  data-wow-duration="2s" data-wow-delay=".2s">
                         <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input class="form-control" type="text" id="txtName" placeholder="Enter Name" required>
+                            <label for="Name">Name <span class="errName"></span></label>
+                            <input class="form-control" type="text" id="txtName" required>
                         
                             <div class="form-group">
-                                <label for="Email">Email address</label>
-                                <input type="email" class="form-control" id="txtEmail" placeholder="name@abc.com" required>
+                                <label for="Email">Email address <span class="errEmail"></span></label>
+                                <input type="email" class="form-control" id="txtEmail" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
                             </div>
 
 

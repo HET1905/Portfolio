@@ -290,6 +290,10 @@ img.parallax-slider {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.errEmail, .errName{
+    color:red;
+    padding-left: 10px;
+}
 
 /* ----------------------Footer Styling -------------------------- */
 #footerDiv {
