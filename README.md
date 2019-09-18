@@ -1,6 +1,6 @@
 # Portfolio
 ### Link for the portfolio:
-https://het1905.github.io/Portfolio/
+https://hetal-portfolio.herokuapp.com
 
 ## Technology Used:
 * Html5
