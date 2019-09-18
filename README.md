@@ -3,6 +3,9 @@
 https://hetal-portfolio.herokuapp.com
 
 ## Technology Used:
+* Node
+* Express
+* MySql
 * Html5
 * Css3
 * Bootstrap
